@@ -156,3 +156,4 @@ URL: http://localhost/addEpisode
 ---
 [Back to top](#flask-api)
 > Made with &#9829; by [thedevsaddam](https://github.com/thedevsaddam) | Generated at: 2020-05-30 10:59:18 by [docgen](https://github.com/thedevsaddam/docgen)
+- [Post man collection](https://www.postman.com/collections/d19a3c51400b06a0fbda)
