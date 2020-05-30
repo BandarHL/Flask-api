@@ -149,7 +149,7 @@ URL: http://localhost/addEpisode
 | id |  | id of movie in json file |
 | title |  | title of episode |
 | url |  | url of episode |
-| preview_url |  | image perview of episode |
+| preview_url |  | image preview of episode |
 
 
 
