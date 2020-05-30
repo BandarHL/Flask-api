@@ -116,7 +116,7 @@ URL: http://localhost/addMovie
 
 | Key | Value | Description |
 | --- | ------|-------------|
-| name | Hunter x Hunter |  |
+| name | | movie name |
 
 
 
