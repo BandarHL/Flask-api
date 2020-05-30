@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "name": "Hunter x Hunter",
+        "eps": [
+            {
+                "id": 0,
+                "title": "Episode 1",
+                "video_url": "https://ep1.mp4",
+                "video_preview": "https://ep1.png"
+            },
+            {
+                "id": 1,
+                "title": "Episode 2",
+                "video_url": "https://ep2.mp4",
+                "video_preview": "https://ep2.png"
+            }
+        ]
+    }
+]
