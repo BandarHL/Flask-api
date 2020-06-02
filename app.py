@@ -130,6 +130,15 @@ def login():
     else:
         return jsonify({'msg': 'The method is not allowed for the requested URL.'}), 404
 
+@app.route('/refresh', methods=['GET', 'POST'])                                               
+@jwt_refresh_token_required                      
+def tokenRefresh():                              
+    if request.method == 'POST':                 
+        current_user = get_jwt_identity()        
+        new_token = create_access_token(identity=current_user, fresh=False)                        
+        return jsonify({'access_token': new_token})                                                
+    else:                                        
+        return jsonify({'msg': 'The method is not allowed for the requested URL.'}), 404
 
 @app.route('/')
 def root():
