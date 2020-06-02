@@ -10,4 +10,4 @@ Movie rest api with Flask.
 # TO DO:
 - Edit movies or episodes.
 - ~Full documentation.~ Done [Look at documentation](documentation.md)
-- Refresh token.
+- ~Refresh token.~ Done
