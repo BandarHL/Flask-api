@@ -9,9 +9,10 @@
 
   * [/register](#1-register)
   * [/login](#2-login)
-  * [/movies](#3-movies)
-  * [/addMovie](#4-addmovie)
-  * [/addEpisode](#5-addepisode)
+  * [/refresh](#3-refresh)
+  * [/movies](#4-movies)
+  * [/addMovie](#5-addmovie)
+  * [/addEpisode](#6-addepisode)
 
 
 --------
@@ -68,8 +69,29 @@ URL: http://localhost/login
 | password |  | password |
 
 
+### 3. /refresh
 
-### 3. /movies
+
+
+***Endpoint:***
+
+```bash
+Method: POST
+Type: 
+URL: http://localhost/refresh
+```
+
+
+***Headers:***
+
+| Key | Value | Description |
+| --- | ------|-------------|
+| Authorization | Bearer <refresh_token from /login> |  |
+
+
+
+
+### 4. /movies
 
 
 
@@ -90,7 +112,7 @@ URL: http://localhost/movies
 
 
 
-### 4. /addMovie
+### 5. /addMovie
 
 
 
@@ -120,7 +142,7 @@ URL: http://localhost/addMovie
 
 
 
-### 5. /addEpisode
+### 6. /addEpisode
 
 
 
